@@ -12,7 +12,7 @@ class Test
  		tracker_id << words[index+2] if element == "Track" and words[index+1] == "It"
 	}
 	formated_arr = po_number.zip tracker_id
-	puts "***************" + formated_arr.to_s
+	puts "Final parse array: " + formated_arr.to_s
   end
 end
 
